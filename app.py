@@ -13,8 +13,7 @@ def hello():
     cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor) 
     cursor.execute("SELECT title,description,url FROM mytable ORDER BY RAND() LIMIT 1") 
     result = cursor.fetchone()   
-    print(result['description']) 
-    if (result['description']=='[removed]' or result['description']=='[deleted]'):
+    if (result['description']=='[removed]' or result['description']=='[deleted]' or result):
         result["description"]='' 
 
     return render_template("onepager.html", result = result)
