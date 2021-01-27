@@ -49,5 +49,4 @@ tqdm==4.50.2
 urllib3==1.22
 webencodings==0.5
 Werkzeug==1.0.1
-wxPython==3.0.2.0
 wxPython-common==3.0.2.0
