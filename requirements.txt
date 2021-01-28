@@ -91,5 +91,4 @@ virtualenv
 wadllib
 wcwidth
 webencodings
-xkit
 zope.interface
