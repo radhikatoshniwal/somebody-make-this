@@ -4,7 +4,7 @@ CacheControl==0.12.6
 cachetools==4.2.1
 certifi==2018.1.18
 cffi==1.14.4
-chardet==3.2
+chardet==3.0.1
 cryptography==1.0.4
 defer==1.0.6
 distro-info===0.18ubuntu0.18.04.1
