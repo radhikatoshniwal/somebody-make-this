@@ -86,7 +86,6 @@ systemd-python
 terminado
 testpath
 tornado
-traitlets
 ubuntu-drivers-common
 ufw
 unattended-upgrades
