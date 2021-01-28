@@ -85,7 +85,6 @@ scipy
 systemd-python
 terminado
 testpath
-ufw
 unattended-upgrades
 uritemplate
 urllib3
