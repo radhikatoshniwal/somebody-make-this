@@ -83,7 +83,6 @@ rsa
 scapy-python3
 scipy
 SecretStorage
-simplegeneric
 system-service
 systemd-python
 terminado
