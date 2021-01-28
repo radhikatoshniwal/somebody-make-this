@@ -10,6 +10,7 @@ defer==1.0.4
 distro-info===0.10
 entrypoints==0.2.3
 firebase-admin==4.5.1
+Flask
 google-api-core==1.25.1
 google-api-python-client==1.12.8
 google-auth==1.24.0
