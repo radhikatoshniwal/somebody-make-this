@@ -1,3 +1,4 @@
+astroid
 asn1crypto==0.24.0
 bleach==2.1.2
 CacheControl==0.12.6
@@ -5,7 +6,6 @@ cachetools==4.2.1
 certifi==2018.1.18
 cffi==1.14.4
 chardet==3.0.1
-cryptography==1.1.1
 defer==1.0.4
 distro-info===0.10
 entrypoints==0.2.3
@@ -64,9 +64,7 @@ pyasn1-modules==0.2.8
 pycairo==1.16.2
 pycparser==2.20
 pycrypto==2.6.1
-pycups==1.9.73
 Pygments==2.2.0
-pygobject
 pymacaroons
 PyNaCl
 pyRFC3339
