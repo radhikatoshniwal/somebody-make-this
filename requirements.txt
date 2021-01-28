@@ -84,7 +84,6 @@ scapy-python3
 scipy
 SecretStorage
 simplegeneric
-simplejson
 system-service
 systemd-python
 terminado
