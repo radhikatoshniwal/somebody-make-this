@@ -87,7 +87,6 @@ terminado
 testpath
 uritemplate
 urllib3
-usb-creator
 virtualenv
 wadllib
 wcwidth
