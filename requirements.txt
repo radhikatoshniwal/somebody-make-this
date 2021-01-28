@@ -85,7 +85,6 @@ scipy
 systemd-python
 terminado
 testpath
-unattended-upgrades
 uritemplate
 urllib3
 usb-creator
