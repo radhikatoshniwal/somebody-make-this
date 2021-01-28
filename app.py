@@ -1,12 +1,12 @@
 from flask import Flask, render_template
 import random
-from flask_frozen import Freezer
 
 from firebase_admin import credentials, firestore, initialize_app
 cred = credentials.Certificate('key.json')
 default_app = initialize_app(cred)
 db = firestore.client()
 app = Flask(__name__)
+
 @app.route('/')
 def hello():
     r=random.randint(0,1998)
