@@ -82,7 +82,6 @@ requests-unixsocket
 rsa
 scapy-python3
 scipy
-system-service
 systemd-python
 terminado
 testpath
