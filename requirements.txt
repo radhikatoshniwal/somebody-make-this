@@ -82,7 +82,6 @@ requests-unixsocket
 rsa
 scapy-python3
 scipy
-SecretStorage
 system-service
 systemd-python
 terminado
