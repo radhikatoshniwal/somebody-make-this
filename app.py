@@ -1,19 +1,17 @@
 from flask import Flask, render_template
-from flask_mysqldb import MySQL
-import MySQLdb.cursors
+import random
+from flask_frozen import Freezer
 
+from firebase_admin import credentials, firestore, initialize_app
+cred = credentials.Certificate('key.json')
+default_app = initialize_app(cred)
+db = firestore.client()
 app = Flask(__name__)
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'zxc'
-app.config['MYSQL_DB'] = 'mydb'
-mysql=MySQL(app)
 @app.route('/')
 def hello():
-    cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor) 
-    cursor.execute("SELECT title,description,url FROM mytable ORDER BY RAND() LIMIT 1") 
-    result = cursor.fetchone()   
-    if (result['description']=='[removed]' or result['description']=='[deleted]' or result):
+    r=random.randint(0,1998)
+    result=db.collection(u'ideas').document(str(r)).get().to_dict()
+    if (result['description']=='[removed]' or result['description']=='[deleted]'):
         result["description"]='' 
 
     return render_template("onepager.html", result = result)
