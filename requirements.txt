@@ -8,7 +8,6 @@ chardet==3.0.1
 cryptography==1.1.1
 defer==1.0.4
 distro-info===0.10
-python3-distutils-extra
 entrypoints==0.2.3
 firebase-admin==4.5.1
 google-api-core==1.25.1
