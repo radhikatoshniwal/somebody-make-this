@@ -85,7 +85,6 @@ scipy
 SecretStorage
 simplegeneric
 simplejson
-six
 system-service
 systemd-python
 terminado
