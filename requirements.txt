@@ -1,6 +1,5 @@
 asn1crypto==0.24.0
 bleach==2.1.2
-Brlapi==0.6.6
 CacheControl==0.12.6
 cachetools==4.2.1
 certifi==2018.1.18
